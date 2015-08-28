@@ -11,6 +11,7 @@ function prime(number) {
 			result = 1 + " is not a prime number";
 		} else {
 
+		//Check all numbers less than 'number' except number one
 		for (var i = number - 1; i < number && i !== 1; i -= 1) {
 
 				if (number % i === 0) {
