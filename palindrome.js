@@ -1,7 +1,7 @@
 //Write a JavaScript function that checks whether a passed string is palindrome or not? Go to the editor
 //A palindrome is word, phrase, or sequence that reads the same backward as forward, e.g., madam or nurses run.
 
-//FIXME--Does not evaluate string with spaces. Include regEx configuration to fix case.
+//FIXME--Does not evaluate string with spaces. Include RegExp configuration to fix case.
 
 function palindrome(string) {
 
