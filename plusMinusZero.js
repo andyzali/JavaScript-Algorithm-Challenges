@@ -17,18 +17,18 @@ Sample Output:
 
 0.500
 0.333
-0.167\
+0.167
 */
 
 
 function processData(input) {
-  var N = input.length;
+  var len = input.length;
   var i;
   var positive = positive || 0;
   var negative = negative || 0;
   var zero = zero || 0;
     
-  for (i = 0; i < N; i += 1) {
+  for (i = 0; i < len; i += 1) {
     if (input[i] > 0) {
         positive += 1;
     } else if (input[i] < 0) {
@@ -37,9 +37,9 @@ function processData(input) {
         zero += 1;
     };
   };
-  console.log((positive / N).toFixed(3))
-  console.log((negative / N).toFixed(3))
-  return console.log((zero / N).toFixed(3));  
+  console.log((positive / len).toFixed(3))
+  console.log((negative / len).toFixed(3))
+  console.log((zero / len).toFixed(3));  
 };
 
 
